@@ -1,0 +1,18 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 30,
+            "server": "localhost",
+            "port": 9100,
+            "driver": "MySQL",
+            "name": "API",
+            "database": "api",
+            "username": "root"
+        }
+    ]
+}
